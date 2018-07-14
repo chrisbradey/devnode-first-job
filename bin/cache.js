@@ -22,6 +22,7 @@ const Cptoken = require('../class/token')
 
 // runtime for cache with class method
 //
+//hdahgudaihgiadhugihiudahgiu
 
 module.exports = async () => {
 	try {
