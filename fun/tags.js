@@ -16,16 +16,7 @@ module.exports = async (x) => {
 				if (cpType == 'host') {
 					cpRes.value = JSON.stringify(cpData.host(myObjs))
 					await doKey(cpRes)
-				} else if (cpType == 'network') {
-					cpRes.value = JSON.stringify(cpData.network(myObjs))
-					await doKey(cpRes)
-				} else if (cpType == 'group') {
-					cpRes.value = JSON.stringify(cpData.group(myObjs))
-					await doKey(cpRes)
-				} else if (cpType == 'address-range') {
-					cpRes.value = JSON.stringify(cpData.range(myObjs))
-					await doKey(cpRes)
-				} else {
+			    }else {
 					cpRes.value = JSON.stringify(cpData.dump(myObjs))
 					await doKey(cpRes)
 				}
