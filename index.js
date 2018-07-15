@@ -37,11 +37,6 @@ module.exports = () => {
 		default:
 			//let mload = `./bin/${cmd}`
 			console.log('running ' + mload + cmd)
-			console.log('haha')
-			console.log('haha')
-			console.log('haha')
-			console.log('haha')
-			console.log('haha')
 			require(mload + cmd)(args)
 				break
 	}
